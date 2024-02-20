@@ -1,4 +1,24 @@
 body {
-    background-color: darkorange;
+    /* רקע לאתר */
+    background-color: rgb(122, 188, 122);
+    /* כיוון מימין לשמאל */
     direction: rtl;
+}
+
+h1 {
+    /* יישור טקסט לאמצע */
+    text-align: center;
+}
+
+a {
+    /* רקע לקישורים */
+    background-color: aqua;
+}
+
+/* שינוי העיצוב של הקישורים בריחוף עכבר */
+a:hover {
+    /* רקע */
+    background-color: brown;
+    /* צבע טקסט */
+    color: white;
 }
