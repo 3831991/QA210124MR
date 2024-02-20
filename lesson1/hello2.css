@@ -1,0 +1,37 @@
+body {
+    /* כיוון האתר */
+    direction: rtl;
+    /* רקע האתר */
+    background-color: #354050;
+}
+
+h1 {
+    /* מרכוז הטקסט */
+    text-align: center;
+    /* צבע הטקסט */
+    color: white;
+}
+
+div {
+    /* רוחב */
+    width: 900px;
+    /* מקסימום רוחב */
+    max-width: 90%;
+    /* רקע */
+    background-color: white;
+    /* עיגול קצוות */
+    border-radius: 6px;
+    /* ריווח פנימי */
+    padding: 12px;
+    /* מרכוז טקסט */
+    text-align: center;
+    /* ריווח אוטמטי (לצורך מרכוז אלמנטים) */
+    margin: auto;
+    /* מינימום גובה של האלמנט */
+    min-height: 500px;
+}
+
+img {
+    /* רוחב */
+    width: 500px;
+}
