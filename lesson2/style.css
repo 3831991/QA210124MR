@@ -39,3 +39,16 @@ h1 {
 .navbar a:hover {
     background-color: #ffffff3e;
 }
+
+.active {
+    background-color: #ffffff3e;
+}
+
+.innerFrame {
+    padding: 12px 24px;
+    padding-bottom: 100px;
+}
+
+img {
+    width: 100%;
+}
