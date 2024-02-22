@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>טופס</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>טופס להזמנת פיצה</h1>
+
+        <div class="frame">
+            <form>
+                <div class="field">
+                    <label>שם הלקוח:</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="field">
+                    <label>טלפון:</label>
+                    <input type="tel" required>
+                </div>
+
+                <div class="field">
+                    <label>אימייל:</label>
+                    <input type="email" required>
+                </div>
+
+                <div class="field">
+                    <label>כתובת:</label>
+                    <input type="text">
+                </div>
+
+                <div class="field">
+                    <label>גודל המגש:</label>
+                    <select required>
+                        <option></option>
+                        <option>אישי</option>
+                        <option>משפחתי</option>
+                        <option>ענק</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label><b>תוספות:</b></label>
+                    <label><input type="checkbox"> זיתים</label>
+                    <label><input type="checkbox"> בצל</label>
+                    <label><input type="checkbox"> עגבניה</label>
+                    <label><input type="checkbox"> תירס</label>
+                    <label><input type="checkbox"> טונה</label>
+                    <label><input type="checkbox"> פטריות</label>
+                    <label><input type="checkbox"> שיפקה</label>
+                </div>
+
+                <div class="field">
+                    <label><b>אמצעי תשלום:</b></label>
+                    <label><input type="radio" name="payment"> אשראי</label>
+                    <label><input type="radio" name="payment"> מזומן</label>
+                    <label><input type="radio" name="payment"> העברה בנקאית</label>
+                    <label><input type="radio" name="payment"> צ'ק</label>
+                    <label><input type="radio" name="payment"> ביט</label>
+                    <label><input type="radio" name="payment"> פייבוקס</label>
+                </div>
+
+                <div class="field">
+                    <label><b>הערה:</b></label>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </div>
+
+                <button>שלח</button>
+            </form>
+        </div>
+    </body>
+</html>

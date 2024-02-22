@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body {
+    direction: rtl;
+    font-family: "Fredoka", sans-serif;
+    background-image: url(pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #494d4c;
+    padding: 12px 50px;
+    display: inline-block;
+    border-radius: 51px;
+}
+
+.frame {
+    max-width: 400px;
+    min-height: 500px;
+    background-color: #ffffffc7;
+    margin: auto;
+    border-radius: 6px;
+    border: 8px solid #8d4b09;
+    border-top: 0;
+    border-bottom: 0;
+    text-align: right;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
+.field {
+    margin-bottom: 12px;
+}
+
+input, select, textarea {
+    border: 1px solid black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+}
+
+input[type=checkbox], input[type=radio] {
+    display: initial;
+    width: initial;
+}
+
+button {
+    background-color: #8bc34a;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    font-size: 22px;
+}
+
+button:hover {
+    background-color: #a4d967;
+}
