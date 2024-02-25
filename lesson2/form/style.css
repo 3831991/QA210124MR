@@ -36,7 +36,9 @@ h1 {
     margin-bottom: 12px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     border: 1px solid black;
     padding: 8px 12px;
     border-radius: 5px;
@@ -49,7 +51,8 @@ label {
     display: block;
 }
 
-input[type=checkbox], input[type=radio] {
+input[type=checkbox],
+input[type=radio] {
     display: initial;
     width: initial;
 }
