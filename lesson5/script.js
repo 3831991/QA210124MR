@@ -13,5 +13,11 @@ function welcomeMessage() {
 }
 
 function multi50() {
+    var n = document.getElementById("num1").value;
+
+    alert(n * 50);
+}
+
+function plus() {
     
 }
