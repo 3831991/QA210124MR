@@ -12,28 +12,30 @@
         <div class="frame">
             <form action="data.html">
                 <div class="field">
-                    <label>שם הלקוח:</label>
-                    <input type="text" required>
+                    <label>
+                        שם הלקוח:
+                        <input type="text" required name="name" autocomplete="name">
+                    </label>
                 </div>
 
                 <div class="field">
                     <label>טלפון:</label>
-                    <input type="tel" required>
+                    <input type="tel" required name="phone" autocomplete="tel">
                 </div>
 
                 <div class="field">
                     <label>אימייל:</label>
-                    <input type="email" required>
+                    <input type="email" required name="email" autocomplete="email">
                 </div>
 
                 <div class="field">
                     <label>כתובת:</label>
-                    <input type="text">
+                    <input type="text" name="address" autocomplete="street-address">
                 </div>
 
                 <div class="field">
                     <label>גודל המגש:</label>
-                    <select required>
+                    <select required name="size">
                         <option></option>
                         <option>אישי</option>
                         <option>משפחתי</option>
@@ -43,13 +45,13 @@
 
                 <div class="field">
                     <label><b>תוספות:</b></label>
-                    <label><input type="checkbox"> זיתים</label>
-                    <label><input type="checkbox"> בצל</label>
-                    <label><input type="checkbox"> עגבניה</label>
-                    <label><input type="checkbox"> תירס</label>
-                    <label><input type="checkbox"> טונה</label>
-                    <label><input type="checkbox"> פטריות</label>
-                    <label><input type="checkbox"> שיפקה</label>
+                    <label><input type="checkbox" name="olives"> זיתים</label>
+                    <label><input type="checkbox" name="Onion"> בצל</label>
+                    <label><input type="checkbox" name="tomato"> עגבניה</label>
+                    <label><input type="checkbox" name="corn"> תירס</label>
+                    <label><input type="checkbox" name="tuna"> טונה</label>
+                    <label><input type="checkbox" name="mushrooms"> פטריות</label>
+                    <label><input type="checkbox" name="produced"> שיפקה</label>
                 </div>
 
                 <div class="field">
@@ -64,7 +66,7 @@
 
                 <div class="field">
                     <label><b>הערה:</b></label>
-                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                    <textarea name="remark" id="" cols="30" rows="5"></textarea>
                 </div>
 
                 <button>שלח</button>
