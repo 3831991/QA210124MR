@@ -19,5 +19,8 @@ function multi50() {
 }
 
 function plus() {
-    
+    var n1 = +document.getElementById("num2").value;
+    var n2 = +document.getElementById("num3").value;
+
+    alert(n1 + n2);
 }
